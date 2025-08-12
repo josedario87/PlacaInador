@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-converter": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "form-data": "^4.0.0",
+    "formidable": "^3.5.4",
+    "jimp": "^1.6.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "nuxt": "^4.0.3",
+    "sharp": "^0.34.3",
+    "tesseract.js": "^6.0.1",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "ws": "^8.18.3"
+  }
+}
